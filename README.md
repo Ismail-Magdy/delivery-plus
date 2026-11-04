@@ -1,3 +1,35 @@
+# DEPI Graduation Project - Team 4
+
+**Group/Track:** `YAT765B_CAI5_SWD1_S3_DEPI5`  
+**Project Name:** Delivery Plus (Cloud-Native Microservices Platform)
+
+## Project Introduction
+This project is our DevOps graduation project for the DEPI scholarship. We are taking "Delivery Plus", a complex, event-driven backend platform consisting of 12 NestJS microservices, PostgreSQL databases, Redis, and Kafka, and building a complete, automated DevOps lifecycle for it. Our goal is to implement Infrastructure Configuration, Containerization, Continuous Integration/Continuous Deployment (CI/CD), and Container Orchestration to ensure high availability and zero downtime.
+
+##  Team Members
+1. **Ismail Magdy** - Team Leader
+2. **Eyad Amr** - DevOps Engineer
+3. **Mohaned Mohammed** - DevOps Engineer
+4. **Mohamed Abdalkareem** - DevOps Engineer
+5. **Abdullah Ashraf** - DevOps Engineer
+6. **Youssef Ahmed** - DevOps Engineer
+
+##  Roles & Responsibilities
+- **Ismail Magdy (Team Leader & K8s Admin):** Orchestrating the microservices using Kubernetes (Deployments, Services, ConfigMaps, Secrets) and ensuring full system integration.
+- **Eyad Amr (OS & Infrastructure Admin):** Managing Linux environments, networking, and writing bash scripts for server health checks and cleanup.
+- **Mohaned Mohammed (Configuration Admin):** Writing Ansible playbooks to automate the provisioning and installation of dependencies (Docker, Jenkins, K8s tools) on our servers.
+- **Mohamed Abdalkareem (Containerization Admin):** Analyzing the NestJS services, optimizing `Dockerfile` configurations, building images, and managing the Docker registry.
+- **Abdullah Ashraf (CI/CD Admin):** Building robust Jenkins pipelines to automate the build, test, and deployment processes directly from GitHub to our cluster.
+- **Youssef Ahmed (Database & Middleware Admin):** Configuring and managing the deployment of stateful services including PostgreSQL, Redis, and Apache Kafka to support the microservices architecture.
+
+##  Work Plan
+- **Phase 1 (Infrastructure & Config):** Preparing Linux servers and automating tool installations using Ansible.
+- **Phase 2 (Containerization):** Building and pushing Docker images for all 12 backend microservices and the API Gateway.
+- **Phase 3 (CI/CD Automation):** Setting up Jenkins and creating the deployment pipelines.
+- **Phase 4 (Orchestration):** Writing Kubernetes manifests to deploy the entire stack (Services, Kafka, Redis, DBs) and going live.
+
+---
+
 <p align="center">
   <img src="./assets/logo_nest.png" alt="Delivery Plus" width="420">
 </p>
