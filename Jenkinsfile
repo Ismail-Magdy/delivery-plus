@@ -18,5 +18,11 @@ pipeline {
                 sh 'npm ci' 
             }
         }
+        stage('Build Project') {
+            steps {
+                echo 'Compiling TypeScript code'
+                sh 'npm run build' 
+            }
+        }
     }
 }
