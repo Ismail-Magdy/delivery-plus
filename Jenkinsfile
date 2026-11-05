@@ -4,14 +4,14 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                echo 'Pulling code from GitHub'
+                echo 'Pulling latest code from GitHub'
                 checkout scm
             }
         }
-        stage('Test Pipeline') {
+        stage('Install Dependencies') {
             steps {
-                echo 'Hello from Jenkins! The code is ready'
-                sh 'ls -la' 
+                echo 'Installing project dependencies'
+                sh 'npm ci' 
             }
         }
     }
